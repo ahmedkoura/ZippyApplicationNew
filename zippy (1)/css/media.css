@@ -1,0 +1,181 @@
+@media(min-width:1200px)
+{
+.container
+{
+	width:1140px;
+}
+}
+@media(min-width:991px) and (max-width:1199px)
+{
+.container
+{
+	width:940px;
+}
+.menu_wrapper ul li a {
+    font-family: 'UVNBoQuen';
+    color: #603d2a;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 40px;
+    letter-spacing: 1.5px;
+}
+.menu_wrapper:after
+{
+	display:none;
+}
+.menu_wrapper ul {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 20px 0px 20px;
+}
+.logo_wrapper {
+    float: left;
+    position: relative;
+    z-index: 99;
+    max-width: 200px;
+}
+.menu_wrapper {
+    margin-left: 0px;
+    margin-top: 45px;
+}
+.footer_menu_container ul li a {
+    margin-right: 30px;
+}
+}
+@media(min-width:768px) and (max-width:990px)
+{
+.container
+{
+	width:740px;
+}
+.menu_wrapper ul li a {
+    font-family: 'UVNBoQuen';
+    color: #603d2a;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 20px;
+    letter-spacing: 1.5px;
+}
+.menu_wrapper:after
+{
+	display:none;
+}
+.menu_wrapper ul {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 20px 0px 20px;
+}
+.logo_wrapper {
+    float: left;
+    position: relative;
+    z-index: 99;
+    max-width: 175px;
+}
+.menu_wrapper {
+    margin-left: 0px;
+    margin-top: 35px;
+}
+.footer_menu_container ul li a {
+    margin-right: 30px;
+}
+}
+@media(min-width:768px)
+{
+.navbar-drawer-bar
+{
+	display:none;
+}
+}
+@media(max-width:767px)
+{
+body {
+    font-size: 18px;	
+	}	
+.container
+{
+	width:calc(100% - 30px);
+	margin:0px 15px;
+}	
+.menu_wrapper > ul
+{
+	display:none;
+}
+.menu_wrapper {
+    float: right;
+    width: auto;
+    position: relative;
+    background: transparent;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.menu_wrapper:after
+{
+	display:none;
+}
+.slider_image_wrapper {
+    min-height:225px;
+}
+.intro_section {
+    padding: 50px 0px 50px;
+}
+.intro_section h1 {
+    font-size: 26px;
+    line-height: 38px;
+}
+.intro_section p {
+    font-size: 18px;
+}
+.feature_img_wrapper {
+    float: left;
+    width: calc(100%);
+    margin: 10px 0px;
+}
+.feature_img_wrapper img
+{
+	width:100%;
+	height:auto;
+}
+.client_box {
+    text-align: center;
+}
+.footer_menu_container ul li a {
+    font-size: 18px;
+    margin-right: 10px;
+}
+.copyright_wrapper ul li {
+    font-size: 14px;
+    line-height: 20px;
+}
+.logo_wrapper {
+    float: left;
+    position: relative;
+    z-index: 99;
+    max-width: 150px;
+}
+.half_section
+{
+	width:100% !important;
+	margin:0px !important;
+}
+	.modal-content
+	{
+		width: 90%;
+	}
+	.footer_menu_container ul
+	{
+		text-align: center;
+		width: 100%;
+	}
+	.footer_menu_container ul li a {
+    font-size: 10px;
+    margin-right: 5px;
+	}
+	.toBooking
+	{
+		width: 100%;
+		text-align: center;
+	}
+}
